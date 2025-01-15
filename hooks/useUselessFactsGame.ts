@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import { getRandomFactWithTruthValue, getRandomCatImage } from '../utils/api.ts';
+import { getRandomFactWithTruthValue, getRandomCatImage } from '../utils/api';
 
 export function useUselessFactsGame() {
   const [fact, setFact] = useState<{ text: string; isTrue: boolean } | null>(null);
