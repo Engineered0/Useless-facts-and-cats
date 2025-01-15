@@ -44,11 +44,9 @@ The game's core logic is implemented in the `useUselessFactsGame` custom hook:
 ### Fact Generation
 - Fetches a true fact from an API.
 - Randomly decides to keep it true or generate a false version.
-- **False facts** are created by modifying true facts (e.g., changing numbers, locations, or key words).
 
 ### Guessing Mechanism
 - Players select 'True' or 'False'.
-- The guess is compared to the fact's actual truth value.
 
 ### Scoring System
 - **Correct guess:** +1 point, streak increases.
