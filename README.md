@@ -37,9 +37,55 @@ A fun, interactive web game that challenges players to distinguish between true 
 - Node.js (v18+)
 - npm or yarn
 
+## Game Logic
+
+The game's core logic is implemented in the `useUselessFactsGame` custom hook:
+
+### Fact Generation
+- Fetches a true fact from an API.
+- Randomly decides to keep it true or generate a false version.
+- **False facts** are created by modifying true facts (e.g., changing numbers, locations, or key words).
+
+### Guessing Mechanism
+- Players select 'True' or 'False'.
+- The guess is compared to the fact's actual truth value.
+
+### Scoring System
+- **Correct guess:** +1 point, streak increases.
+- **Incorrect guess:** No points, streak resets to 0.
+
+### Cat Image Reward
+- A new cat image is fetched and displayed after each correct guess.
+
+### Game Flow
+- A new fact is loaded after each guess.
+- The game continues indefinitely, challenging players to achieve high scores and long streaks.
+
+This simple yet engaging logic creates an addictive gameplay loop, combining trivia with cute animal rewards!
+
+---
+
+## Hackathon Challenge
+
+Created for the **MLH Beginner Week Hackathon**, this project demonstrates:
+- 🔗 **API integration**
+- 🎮 **Interactive game logic**
+- 📱 **Responsive design**
+- 🐾 **Fun user experience**
+
+---
+
+## Future Improvements
+- Add difficulty levels.
+- Implement a global leaderboard.
+- Create more fact modification strategies.
+
+
+
 ### Installation
 ```bash
 git clone https://github.com/your-username/useless-facts-cats-game.git
 cd useless-facts-cats-game
 npm install
 npm run dev
+
