@@ -31,7 +31,7 @@ export default function UselessFactsAndCats() {
       <Card className="mb-4">
         <CardHeader>
           <CardTitle>Random Fact</CardTitle>
-          <CardDescription>Guess if it's true or false!</CardDescription>
+          <CardDescription>Guess if its true or false!</CardDescription>
         </CardHeader>
         <CardContent>
           {loading ? (
@@ -82,7 +82,7 @@ export default function UselessFactsAndCats() {
           </div>
           {lastGuessCorrect !== null && (
             <p className={`mt-4 text-center ${lastGuessCorrect ? 'text-green-500' : 'text-red-500'}`}>
-              {lastGuessCorrect ? 'Correct! Here\'s a cat!' : 'Oops! That\'s not right. Try again!'}
+              {lastGuessCorrect ? 'Correct! Heres a cat!' : 'Oops! Thats not right. Try again!'}
             </p>
           )}
         </CardContent>
