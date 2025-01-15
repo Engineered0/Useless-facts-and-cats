@@ -84,7 +84,7 @@ Created for the **MLH Beginner Week Hackathon**, this project demonstrates:
 
 ### Installation
 ```bash
-git clone https://github.com/your-username/useless-facts-cats-game.git
+git clone https://github.com/Engineered0/useless-facts-cats-game.git
 cd useless-facts-cats-game
 npm install
 npm run dev
