@@ -65,7 +65,7 @@ This simple yet engaging logic creates an addictive gameplay loop, combining tri
 
 ## Hackathon Challenge
 
-Created for the **MLH Beginner Week Hackathon**, this project demonstrates:
+Created for the **Hackathon**, this project demonstrates:
 - 🔗 **API integration**
 - 🎮 **Interactive game logic**
 - 📱 **Responsive design**
